@@ -2,10 +2,10 @@ import React from "react"
 
 export default function Projects(props) {
     return (
-        <section>
+        <section className="projects">
             <img src={props.img}/>
             <h1>{props.title}</h1>
-            <p>{props.paragraph}</p>
+            <p>{props.text}</p>
         </section>
     )
 }

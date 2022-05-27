@@ -1,26 +1,32 @@
 import React from "react"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
+import Footer from "./components/Footer"
 
 export default function App() {
     return(
         <>
             <Navbar />
+            <Footer />
             <Projects
                 img=""
                 title="Campus"
-                paragraph="Sistema administrativo de Oxford College"
+                text="Sistema administrativo de Oxford College"
             />
             <Projects
                 img=""
                 title="Verb Browser"
-                paragraph="Conjugación de verbos en inglés con su pronunciación"
+                text="Conjugación de verbos en inglés con su pronunciación"
             />
             <Projects
                 img=""
                 title="Juegos"
-                paragraph="Día del niño y Halloween"
+                text="Día del niño y Halloween"
             />
         </>
     )
 }
+
+/* 
+
+*/

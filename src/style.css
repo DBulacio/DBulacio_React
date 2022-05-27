@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Spline+Sans+Mono:wght@300;400;500;600;700&display=swap');
+:root {
+    --darkblue: #000d22;
+    --pink: #ee0b95;
+    --lightblue: #2979fa;
+}
+body, html {
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: bold;
+    background-color: var(--darkblue);
+    width: 98vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- GENERAL --- */
+a {
+    text-decoration: none;
+}
+/* --- NAVBAR --- */
+.nav--list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.nav--list >  a {
+    color: var(--lightblue);
+}
+.nav--list > a > li {
+    width: 90%;
+    margin: 1rem 0 0 0;
+    padding-left: 1rem;
+    font-size: 8rem;
+    border: 5px solid var(--pink);  
+    border-radius: 20px;
+
+    background: linear-gradient(to left, var(--darkblue) 50%, var(--pink) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.nav--list > a > li:hover {
+    background-position: left;
+    box-shadow: 3px 3px 3px var(--lightblue);
+}
+/* --- NAVBAR --- */
+
+/* --- FOOTER --- */
+footer {
+    position: absolute;
+    top: 87%;
+    width: 97%;
+    padding: 1rem;
+    text-align: end;
+}
+.footer--text {
+    font-family: 'Dancing Script', cursive;
+    color: var(--lightblue);
+    font-size: 2.5rem;
+}
+/* --- FOOTER --- */
+
+/* --- PROJECTS --- */
+.projects {
+    color: #fff;
+}
+/* --- PROJECTS --- */
