@@ -62,5 +62,33 @@ footer {
 /* --- PROJECTS --- */
 .projects {
     color: #fff;
+    max-width: 350px;
+    height: 500px;
+    text-align: center;
+    padding: 5px;
+
+    border: 5px solid var(--pink);  
+    border-radius: 20px;
+}
+.projects--wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8rem 4rem;
 }
 /* --- PROJECTS --- */
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 992px) {
+    body {
+        overflow-x: none;
+    }
+    .nav--list > a > li {
+        font-size: 4rem;
+    }
+    footer {
+        padding: 0;
+    }
+}
+/* --- MEDIA QUERIES --- */
