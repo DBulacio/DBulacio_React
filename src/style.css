@@ -77,6 +77,14 @@ footer {
     justify-content: space-between;
     margin: 8rem 4rem;
 }
+.projects--img {
+    width: 350px;
+    border-radius: 20px;
+}
+.projects--title {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
 /* --- PROJECTS --- */
 
 /* --- MEDIA QUERIES --- */
