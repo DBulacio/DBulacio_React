@@ -5,9 +5,10 @@ export default function Projects(props) {
         <section className="projects">
             <img className="projects--img" src={props.img} alt=""/>
             <h1 className="projects--title">{props.title}</h1>
-            <p>Dev team: {props.devTeam}</p>
-            <p>Dev time: {props.time}</p>
-            <p>{props.text}</p>
+            <p>Repo: {props.repo ? <a href={props.repo}>here</a> : <a>Private! Sorry</a>}</p>
+            <p>Technology: {props.tech}</p>
+            <p>Brief Description: {props.description}</p>
+            <a href="">Extra...</a>
         </section>
     )
 }
